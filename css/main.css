@@ -1,0 +1,145 @@
+/****BASE STYLES****/
+body{
+  font-family: 'Halant';
+}
+
+#contact{
+height: 200px;
+}
+
+
+/****GRID****/
+.full-width {
+    width: 1200px;
+    margin: auto;
+    overflow: auto;
+}
+
+.half-width {
+    width: 600px;
+    float: left;
+}
+
+
+.third-width {
+    width: 400px;
+    margin: auto;
+    float: left;
+}
+
+.two-third-width{
+    width:800px;
+    margin: auto;
+    float: left;
+}
+
+/****HEADER****/
+header {
+  height:250px;
+  background:#333366;
+  text-align: center;
+}
+
+header h1{
+  font-family:'Abril Fatface';
+  font-size: 65px;
+  color: #ffffff;
+  padding: 10px;
+}
+
+nav{
+    padding: 0px;
+    background: #333366;
+}
+
+nav ul li{
+    display: inline;
+}
+
+nav ul li a{
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 20px;
+    color: #99ffff;
+    padding: 0px 100px;
+    font-family:'Libre Franklin';
+}
+
+/****ABOUT****/
+#about{
+  padding: 20px;
+  background: #cccccc;
+}
+
+p{
+  font-size: 22px;
+  line-height: 30px;
+  color: #000000;
+  text-align: left;
+}
+
+/****WORK****/
+#work .half-width{
+  margin: 100px 30px 20px 60px;
+  border: 20px;
+  padding: 10px;
+  text-align: center;
+  background: #333366;
+  float: left;
+}
+
+h3{
+  font-size: 28px;
+  font-family: 'Libre Franklin';
+  color: #ffffff;
+}
+
+/****CONTACT****/
+
+#contact{
+  text-align: center;
+  padding: 50px 0px 100px 0px;
+}
+
+#contact a{
+  text-decoration: none;
+  font-family: 'Halant';
+  color: #000000;
+}
+
+#contact h4{
+  font-family: 'Halant';
+  color: #000000;
+  font-size: 22px;
+}
+
+/****BOOKMARKED****/
+#bookmarked{
+  background: #333366;
+  color: #ffffff;
+  text-align: center;
+}
+
+#bookmarked h3{
+  font-size: 25px;
+  font-family: 'Libre Franklin';
+  color: #99ffff;
+  padding: 40px 0px 0px 0px;
+}
+
+h5{
+  font-size: 20px;
+  font-family: 'Libre Franklin';
+  padding: none;
+}
+
+h4{
+  font-size: 14px;
+  font-family: 'Libre Franklin';
+  color: #ffffff;
+
+}
+
+#bookmarked a{
+  text-decoration: none;
+}
